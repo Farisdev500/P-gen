@@ -1,0 +1,53 @@
+body {
+
+    background-color: rgba(58, 127, 255, 0.827);
+
+    display: flex;
+   
+    flex-direction: column; 
+    
+    align-items: center;      
+    justify-content: center;  
+    
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size: 2.8em;   
+
+    color:white;
+}
+#PushupCnt{
+    font-size: 3em;
+
+}
+
+.btncontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 400px;
+}
+.buttons{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+    
+    padding: 25px 0;
+
+    color: rgb(1,0,4);
+    background-color: rgb(255,255,255);
+    border-radius: 12px;
+    border:none;
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+    transform: transfrom 0.1s;
+}
+
+#PushupCnt{
+    font-size: 1em;
+    padding: 25px 0;
+}
